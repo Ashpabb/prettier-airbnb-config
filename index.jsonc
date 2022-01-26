@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  
+  /**
+   * Base Config from: https://github.com/airbnb/javascript/blob/master/README.md
+   */
+
+  // 3.6 Quote Props
+  "quoteProps": "as-needed",
+  
+  // 6.1 Quotes
+  "singleQuote": true,
+  
+  // 8.2 - Arrow Function Parentheses
+  "arrowParens": "always",
+  
+  // 21.1 Semicolons
+  "semi": true,
+  
+  // 19.1 Tabs and Tab Width
+  "tabWidth": 2,
+  "useTabs": false,
+  
+  // 19.3 Print Width and Wrapping
+  "printWidth": 100,
+  "proseWrap": "always",
+  
+  // 19.11 Bracket Spacing
+  "bracketSpacing": false,
+  
+  // 20.2 Trailing Commas
+  "trailingComma": "es5",
+  
+  /**
+   * React Config (from: https://github.com/airbnb/javascript/tree/master/react)
+   */
+
+  // Quotes
+  "bracketSameLine": false,
+  
+  // Tags
+  "jsxSingleQuote": false
+}
